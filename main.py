@@ -2,8 +2,8 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+API_ID = int(os.getenv("26091479"))
+API_HASH = os.getenv("979b9db0c9b9d22648909e5c76817c6b")
 BOT_TOKEN = os.getenv("8295181664:AAHrD5Z_fk9iD-w5VF3dFFA-zs9psYhpIIk")
 
 app = Client("admin_alert_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
